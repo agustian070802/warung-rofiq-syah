@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #00985B;
+    position: fixed;
+    top: 0;
+}
+
+.nav-item .btn-group > a{
+    color: #fff!important;
+}
+
+.nav-item .btn-group .dropdown-menu {
+    color: #000 !important;
+}
+
+.navbar-collapse .nav-item  .nav-link{
+    color: #fff!important;
+}
+
+.navbar-collapse .nav-item .nav-link:hover{
+    color: #000 !important;
+    transition: all ease-in 0.5s;
+}
+
+.nav-item .active{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.nav-item .dropdown-menu {
+    background: #00985B;
+    border: none;
+}
+.nav-item .dropdown-menu .dropdown-item {
+    color: #fff;
+    display: inline-block;
+    background-color: transparent;
+    /* border-bottom: 1px solid rgb(198, 192, 192); */
+}
+.nav-item .dropdown-menu .dropdown-item:hover {
+    color: #000;
+}
+
+.btn-contact {
+    width: 115px;
+    height: 38px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(176, 255, 224, 1) ;
+}
+
+.btn-contact:hover{
+    color: #000;
+    background: linear-gradient(to right,rgba(176, 255, 224, 1), rgba(0, 152, 91, 1));
+    transition: all ease-in 1s;
+}
+
+
+/* Hero section */
+.hero {
+    position: relative;
+    height: 90vh;
+    background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url(assets/image/herobanner.png) no-repeat center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.hero h1,p,span {
+    color: #fff;
+}
+.hero h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+.hero p,span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-order {
+    width: 166px;
+    height: 48px;
+    background: #B0FFE0;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid #00985B;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-order:hover {
+    background: linear-gradient(to left,rgba(176, 255, 224, 1), rgba(0, 152, 91, 1));
+    transition: all ease-in 1s;
+}
+
+.btn-arrow {
+    top: 400px;
+}
+
+.button-arrow-left, .button-arrow-right {
+    width: 53px;
+    height: 51px;
+    border-radius: 28px;
+    border: none;
+    background-color: #B0FFE0;
+}
+
+.button-arrow-left img, .button-arrow-right img{
+    margin-top: -5px;
+}
+
+
+/* LAYANAN KAMI */
+.layanan-kami{
+    height: 772px;
+    background-color: #B0FFE0;
+}
+
+.layanan-kami h1 {
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #00985B;
+}
+
+.layanan-kami p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+/* CARD */
+.layanan-kami .card-parrent::-webkit-scrollbar{
+    width: 1px;
+    height: 4px;
+}
+.layanan-kami .card-parrent::-webkit-scrollbar-track{
+   background: transparent;
+}
+.layanan-kami .card-parrent::-webkit-scrollbar-thumb {
+    background: #FF731D!important;
+    border-radius: 50px;
+}
+.layanan-kami .card {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background: linear-gradient(to right,rgba(176, 255, 224, 1), rgba(0, 152, 91, 1));
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+
+.layanan-kami .card .img-card {
+    background-color: #0EA569;
+    border-radius: 50%;
+    margin-top: 48px;
+}
+
+.layanan-kami .card .card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+.layanan-kami .card .card-text {
+    width: 200px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+}
+
+.layanan-kami .card  .star {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.layanan-kami .card .btn-paket {
+    width: 100%;
+    height: 38px;
+    border: none;
+    /* border-radius: 3px; */
+    background: none;
+    background: linear-gradient(to right,rgba(176, 255, 224, 1), rgba(0, 152, 91, 1));
+    color: #000;
+    /* border: 1px solid rgba(176, 255, 224, 1) ; */
+}
+
+.layanan-kami .card:hover .btn-paket{
+    color: #000;
+    background: #fff;
+    transition: all ease-in 1s;
+}
+
+/* CARD HOVER*/
+.layanan-kami .card:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: linear-gradient(318.09deg, rgba(0, 0, 0, 1) -45.66%, rgba(0, 152, 91, 1));
+}
+
+.layanan-kami .card:hover .img-card {
+    background-color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+.layanan-kami .card:hover .card-title {
+    color: #fff;
+    transition: all ease-in-out .7s;
+}
+
+.layanan-kami .card:hover .card-text {
+    color: #fff;
+}
+
+.layanan-kami .card:hover  .star{
+    color: gold;
+    transition: all ease-in-out 1.2s;
+}
