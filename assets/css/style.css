@@ -83,7 +83,7 @@ body {
 .hero {
     position: relative;
     height: 90vh;
-    background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url("assets/image/herobanner.png") no-repeat center;
+    background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url("../image/herobanner.png") no-repeat center;
     background-size: cover;
     overflow-x: hidden;
 }
